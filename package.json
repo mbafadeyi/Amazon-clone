@@ -1,0 +1,15 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "Amazon's landing page built with HTML and Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
